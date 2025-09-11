@@ -1,0 +1,73 @@
+{
+    "name": "Dan Mark Caravana",
+    "nickname": "Dan-dan",
+    "email": "caravanadanmark@gmail.com",
+    "phone": "+63 956 982 4946",
+    "location": "Biñan City Laguna, Philippines",
+    "address": "326 Purok 3 Sto. Tomas Biñan City Laguna",
+
+    "headline": "If you don't take risk you can't create a future!",
+
+    "linkedin": "https://www.linkedin.com/in/dmrcvn",
+    "jobstreet": "https://ph.jobstreet.com/profile/danmark-caravana-NykZClXVhY",
+    "indeed": "Indeed",
+
+    "stats": [
+        { "id": 1, "name": "Tenurity (y & m)", "count": "1.8" },
+        { "id": 2, "name": "Corporate Projects", "count": "3" },
+        { "id": 3, "name": "Personal Projects", "count": "5" },
+        { "id": 4, "name": "Companies", "count": "2" }
+
+    ],
+
+    "exp": [
+        { "id": 1, "name": "Laguna Metts Corporation", "position": "IT Staff / Programmer", "url": "#lagunametts" },
+        { "id": 2, "name": "Premier Software Enterprise", "position": "Software Developer", "url": "#psei" },
+        { "id": 3, "name": "AL Software Solutions Vision", "position": "QA-Tester (Internship)", "url": "#ojt" }
+    ],
+
+    "workExperience": [
+        { "id": 1, "name": "Laguna Metts Corporation", "position": "IT Staff / Programmer", 
+            "imageUrl": "https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png", 
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi incidunt voluptas recusandae unde, facilis aperiam numquam quia quisquam eveniet velit.",
+            "stack": ["MySQL", "TailwindCSS", "Laravel","ReactJS"],
+            "progress": [80, 83, 22.6, 77.3],
+            "elementId": "lagunametts"
+        },
+        { "id": 2, "name": "Premier Software Enterprise", "position": "Software Developer", 
+            "imageUrl": "/src/assets/imgs/pseiDashboard.png", 
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi incidunt voluptas recusandae unde, facilis aperiam numquam quia quisquam eveniet velit.",  
+            "stack": ["C#", "ASP.NET", "Bootstrap","Blazor"],
+            "progress": [45, 25, 60, 60],
+            "elementId": "psei"
+        },
+        { "id": 3, "name": "AL Software Solutions Vision", "position": "QA-Tester (Internship)", 
+            "imageUrl": "/src/assets/imgs/alss-qa.png", 
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi incidunt voluptas recusandae unde, facilis aperiam numquam quia quisquam eveniet velit.",
+            "tools": ["MS-Word / G-Docs", "Photoshop"],
+            "progress": [90, 25],
+            "elementId": "ojt"
+        }
+    ],
+
+    
+    "icons": {
+        "MysqlIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
+        "TailwindIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        "LaravelIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg",
+        "ReactIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+        "CSharpIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
+        "AspIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aspnetcore/aspnetcore-original.svg",
+        "BootstrapIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg",
+        "BlazorIcon": "https://seeklogo.com/images/B/blazor-logo-98B9F3D0A3-seeklogo.com.png",
+        "WordIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftoffice/microsoftoffice-original.svg",
+        "PhotoshopIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg",
+        "IllustratorIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg",
+        "GitHubIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg",
+        "IndeedIcon": "/src/assets/logos/indeed.png",
+        "JobstreetIcon": "src/assets/logos/jobstreet.png",
+        "LinkedInIcon": "src/assets/logos/linkedin.png"
+    }
+
+}
+        
