@@ -1,4 +1,4 @@
-import { CodeExp } from "./codeExp";
+import { CodeExp } from "./CodeExp";
 import Experiences from "./ExperienceSection";
 import { IconCloudDemo } from "./IconCloud";
 import PersonalProjects from "./PersonalProjects";
