@@ -1,6 +1,6 @@
 // import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
 
-export default function Experiences({workExp, icons}) {
+export default function Experiences({workExp}) {
   return (
     <div className="relative overflow-hidden isolate bg-gray-900 px-6 py-24 lg:overflow-visible sm:py-32 lg:px-0 mt-24 text-start">
       {/* <div className="absolute inset-0 -z-10 overflow-hidden">
@@ -29,19 +29,32 @@ export default function Experiences({workExp, icons}) {
                     lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8`
                 }
             >
-                <div className="-mt-12 -ml-0 p-6 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-                    <img
-                        alt=""
-                        src={exp.imageUrl}
-                        className="w-3xl max-w-none rounded-xl bg-gray-800 shadow-xl ring-1 ring-white/10 sm:w-118"
-                    />
+                <div className="-mt-12 -ml-0 p-6 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
+                    {exp.href && exp.href.startsWith('http') ? (
+                        <a href={exp.href} target="_blank" rel="noopener noreferrer">
+                            <img
+                                alt=""
+                                src={exp.imageUrl}
+                                className="w-3xl max-w-none rounded-xl bg-gray-800 shadow-xl ring-1 ring-white/10 sm:w-118"
+                            />
+                        </a>
+                    ) : (
+                        <a href={exp.href}>
+                            <img
+                                alt=""
+                                src={exp.imageUrl}
+                                className="w-3xl max-w-none rounded-xl bg-gray-800 shadow-xl ring-1 ring-white/10 sm:w-118"
+                            />
+                        </a>
+                    )}
                 </div>
                 
                 <div className="lg:pr-4">
                     <div className="max-w-xl text-base/7 text-gray-400 lg:max-w-lg">
                         <p className="text-xl/8 text-gray-300" id={exp.elementId}>
-                            {exp.name} - {exp.position} ({exp.startDate} - {exp.endDate})
+                            {exp.name} - {exp.position}
                         </p>
+                        <p className="text-gray-300">({exp.startDate} - {exp.endDate})</p>
                         <p className="">
                             {exp.description}
                         </p>
@@ -50,7 +63,15 @@ export default function Experiences({workExp, icons}) {
                                 {(exp.stack || exp.tools).map((item, i) => (
                                     <li key={i} className="flex gap-x-3 items-center">
                                         {/* <CloudArrowUpIcon aria-hidden="true" className="mt-1 size-5 flex-none text-indigo-400" /> */}
-                                        <img className="w-12" src={icons.LinkedInIcon} alt="icons" />
+                                        <img className={`w-12 ${
+                                            exp.icons[i].name === 'ReactIcon' || exp.icons[i].name === 'TailwindIcon' 
+                                                ? 'bg-gray-900' 
+                                                : 'bg-gray-200'
+                                                } rounded p-1 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-120`
+                                            } 
+                                            src={exp.icons[i].url} alt={exp.alt[i]} 
+                                        />
+                                        
                                         <span>
                                             <strong className="font-semibold text-white">{item}</strong>
                                         </span>

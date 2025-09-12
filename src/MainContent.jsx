@@ -1,10 +1,15 @@
 import { CodeExp } from "./codeExp";
 import Experiences from "./ExperienceSection";
+import { IconCloudDemo } from "./IconCloud";
+import PersonalProjects from "./PersonalProjects";
+import TechStacks from "./TechStacks";
 
 const MainContent = ({details}) => {
     const stats = details.stats;
     const experience = details.exp;
     const workExp = details.workExperience;
+    const icons = details.allIcons.techStacks;
+    const personalProject = details.personalProjects;
     return ( 
         <main className="">
            <div className="bg-gray-900 py-24 sm:py-32">
@@ -35,16 +40,18 @@ const MainContent = ({details}) => {
                                                 {details.location}
                                             </p>
 
-                                            <div className="mt-4 pb-1.5 text-center">
+                                            <div className="mt-4 pb-1.5 text-white text-center">
                                                 <p className="italic">{details.headline}</p>
                                             </div>
                                         </div>
                                     </div>
                                     
                                 </div>
+                
+                                
 
-                                <div className="@container relative min-h-100 w-full grow max-lg:mx-auto max-lg:max-w-sm">
-                                    <div className="py-24 sm:py-32">
+                                <div className="@container relative mt-3 w-full">
+                                    <div className="p-3">
                                         <div className="flex justify-center items-center px-6">
                                             <dl className="grid grid-cols-2 justify-center gap-8 lg:gap-0 text-center md:grid-cols-2 lg:grid-cols-4 items-center p-4 bg-gray-900 outline-white/20 rounded">
                                             {stats.map((stat) => (
@@ -55,14 +62,18 @@ const MainContent = ({details}) => {
                                             ))}
                                             </dl>
                                         </div>
+                                        
                                     </div>
+                                </div>
+                                <div className="">
+                                    <IconCloudDemo />
                                 </div>
                             </div>
                             <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-white/15 lg:rounded-l-4xl" />
                         </div>
                         {/* 1 end */}
                                                 
-                        {/* 2 - EXPERIENCE */}
+                        {/* 2 - PREVIEW EXPERIENCE */}
                         <div className="relative lg:row-span-2">
                             <div className="absolute inset-px rounded-lg bg-gray-800 max-lg:rounded-b-4xl lg:rounded-r-4xl" />
                             <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)]">
@@ -97,6 +108,11 @@ const MainContent = ({details}) => {
                     {/* SECTION 1 END */}
                     
                     <Experiences workExp={workExp} icons={details.icons} />
+                    
+                    <PersonalProjects personalProjects={personalProject} />
+
+                    <TechStacks stackIcons ={icons} />
+
                     
                 </div>
             </div>

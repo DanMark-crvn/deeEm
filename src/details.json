@@ -1,6 +1,8 @@
 {
+    "logo": "DeeEm",
     "name": "Dan Mark Caravana",
     "nickname": "Dan-dan",
+    "ign": "deeEm",
     "email": "caravanadanmark@gmail.com",
     "phone": "+63 956 982 4946",
     "location": "Biñan City Laguna, Philippines",
@@ -29,44 +31,109 @@
     "workExperience": [
         { "id": 1, "name": "Laguna Metts Corporation", "position": "IT Staff / Programmer", 
             "imageUrl": "https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png", 
+            "href": "#lagunametts",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi incidunt voluptas recusandae unde, facilis aperiam numquam quia quisquam eveniet velit.",
             "stack": ["MySQL", "TailwindCSS", "Laravel","ReactJS"],
+            "alt": ["MySQLIcon", "TailwindIcon", "LaravelIcon","ReactIcon"],
+            "icons": [
+                {"name": "MySQLIcon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"},
+                {"name": "TailwindIcon", "url": "/src/assets/logos/Tailwind CSS.png"},
+                {"name": "LaravelIcon", "url": "/src/assets/logos/Laravel.png"},
+                {"name": "ReactIcon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"}
+            ],
             "progress": [80, 83, 22.6, 77.3],
-            "elementId": "lagunametts"
+            "elementId": "lagunametts",
+            "startDate": "May 2024",
+            "endDate": "July 2024"
         },
         { "id": 2, "name": "Premier Software Enterprise", "position": "Software Developer", 
             "imageUrl": "/src/assets/imgs/pseiDashboard.png", 
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi incidunt voluptas recusandae unde, facilis aperiam numquam quia quisquam eveniet velit.",  
+            "href": "https://pseconnect.com/market",
+            "description": "Hotdog ipsum dolor sit amet consectetur adipisicing elit. Excepturi incidunt voluptas recusandae unde, facilis aperiam numquam quia quisquam eveniet velit.",  
             "stack": ["C#", "ASP.NET", "Bootstrap","Blazor"],
+            "alt": ["CSharpIcon", "AspIcon", "BootstrapIcon","BlazorIcon"],
+            "icons": [
+                { "name": "CSharp", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" },
+                { "name": "ASP.NET", "url": "/src/assets/logos/NET core.png" },
+                { "name": "Bootstrap", "url": "/src/assets/logos/Bootstrap.png" },
+                { "name": "Blazor", "url": "/src/assets/logos/blazor.png" }
+            ],
             "progress": [45, 25, 60, 60],
-            "elementId": "psei"
+            "elementId": "psei",
+            "startDate": "October 2023",
+            "endDate": "February 2024"
         },
         { "id": 3, "name": "AL Software Solutions Vision", "position": "QA-Tester (Internship)", 
             "imageUrl": "/src/assets/imgs/alss-qa.png", 
+            "href": "#ojt",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi incidunt voluptas recusandae unde, facilis aperiam numquam quia quisquam eveniet velit.",
             "tools": ["MS-Word / G-Docs", "Photoshop"],
+            "alt": ["WordIcon", "PhotoshopIcon"],
+            "icons": [
+                {"name": "WordIcon", "url": "/src/assets/logos/msword.png"},
+                {"name": "PhotoshopIcon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg"}
+            ],
             "progress": [90, 25],
-            "elementId": "ojt"
+            "elementId": "ojt",
+            "startDate": "October 2022",
+            "endDate": "December 2022"
         }
     ],
 
     
-    "icons": {
-        "MysqlIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg",
-        "TailwindIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-        "LaravelIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg",
-        "ReactIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
-        "CSharpIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
-        "AspIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aspnetcore/aspnetcore-original.svg",
-        "BootstrapIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg",
-        "BlazorIcon": "https://seeklogo.com/images/B/blazor-logo-98B9F3D0A3-seeklogo.com.png",
-        "WordIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftoffice/microsoftoffice-original.svg",
-        "PhotoshopIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg",
-        "IllustratorIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg",
-        "GitHubIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg",
-        "IndeedIcon": "/src/assets/logos/indeed.png",
-        "JobstreetIcon": "src/assets/logos/jobstreet.png",
-        "LinkedInIcon": "src/assets/logos/linkedin.png"
+    "allIcons": {
+        "techStacks": [
+            {"id": 1, "name": "MysqlIcon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg", "progress": 50},
+            {"id": 2, "name": "TailwindIcon", "url": "/src/assets/logos/Tailwind CSS.png", "progress": 70},
+            {"id": 3, "name": "LaravelIcon", "url": "/src/assets/logos/Laravel.png", "progress": 50},
+            {"id": 4, "name": "ReactIcon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg", "progress": 80},
+            {"id": 5, "name": "CSharpIcon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg", "progress": 30},
+            {"id": 6, "name": "AspIcon", "url": "/src/assets/logos/NET core.png", "progress": 20},
+            {"id": 7, "name": "BootstrapIcon", "url": "/src/assets/logos/Bootstrap.png", "progress": 70},
+            {"id": 8, "name": "BlazorIcon", "url": "/src/assets/logos/blazor.png", "progress": 20},
+            {"id": 9, "name": "VscodeIcon", "url": "/src/assets/logos/Visual Studio Code (VS Code).png", "progress": 80},
+            {"id": 10, "name": "CSS3Icon", "url": "/src/assets/logos/CSS3.png", "progress": 80},
+            {"id": 11, "name": "HTML5Icon", "url": "/src/assets/logos/HTML5.png", "progress": 80},
+            {"id": 12, "name": "JavaScriptIcon", "url": "/src/assets/logos/JavaScript.png", "progress": 60},
+            {"id": 13, "name": "PHPIcon", "url": "/src/assets/logos/PHP.png", "progress": 60},
+            {"id": 14, "name": "GitHubIcon", "url": "/src/assets/logos/GitHub.png", "progress": 60}
+
+        ],
+        "otherTools": [
+            {"id": 9, "name": "WordIcon", "url": "/src/assets/logos/msword.png"},
+            {"id": 10, "name": "PhotoshopIcon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg"},
+            {"id": 11, "name": "IllustratorIcon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg"},
+            {"id": 12, "name": "GitHubIcon", "url": "/src/assets/logos/GitHub.png"},
+            {"id": 13, "name": "IndeedIcon", "url": "/src/assets/logos/indeed.png"},
+            {"id": 14, "name": "JobstreetIcon", "url": "src/assets/logos/jobstreet.png"},
+            {"id": 15, "name": "LinkedInIcon", "url": "src/assets/logos/linkedin.png"}
+        ]
+    },
+
+    "personalProjects": [
+        {"id": 1, "name": "Sim Card Reader", "icon": "/src/assets/logos/GitHub.png", "url": "https://danmark-crvn.github.io/sim/"},
+        {"id": 2, "name": "Sign in & Register Form (UI)", "icon": "/src/assets/logos/GitHub.png", "url": "https://danmark-crvn.github.io/Loginform-Registerform/"},
+        {"id": 3, "name": "My Old Portfolio", "icon": "/src/assets/logos/GitHub.png", "url": "https://danmark-crvn.github.io/myPortfolio/"},
+        {"id": 4, "name": "Others", "icon": "/src/assets/logos/GitHub.png", "url": "https://github.com/DanMark-crvn?tab=repositories"}
+    ],
+
+    "alt":{
+        "defaultIcon": "default icon",
+        "MysqlIcon": "MySQL icon",
+        "TailwindIcon": "TailwindCSS icon",
+        "LaravelIcon": "Laravel icon",
+        "ReactIcon": "ReactJS icon",
+        "CSharpIcon": "C# icon",
+        "AspIcon": "ASP.NET icon",
+        "BootstrapIcon": "Bootstrap icon",
+        "BlazorIcon": "Blazor icon",
+        "WordIcon": "MS-Word / G-Docs icon",
+        "PhotoshopIcon": "Photoshop icon",
+        "IllustratorIcon": "Illustrator icon",
+        "GitHubIcon": "GitHub icon",
+        "IndeedIcon": "Indeed icon",
+        "JobstreetIcon": "Jobstreet icon",
+        "LinkedInIcon": "LinkedIn icon"
     }
 
 }
