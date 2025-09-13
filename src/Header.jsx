@@ -7,7 +7,7 @@ const Header = ({navlinks}) => {
             <nav className="m-4 flex justify-around items-center">
               {/* <a href="/" className="text-lg font-bold">Dee-Em</a > */}
               <div className="flex gap-6 items-center">
-                <a href={navlinks.linkedin} target="_blank" rel="noopener noreferrer"><img className="w-12 shadow-2xl/90 transition duration-300 ease-in-out hover:scale-110 hover:-translate-y-1" src="./public/assets/logos/linkedin.png" alt="Linkedin" /></a>
+                <a href={navlinks.linkedin} target="_blank" rel="noopener noreferrer"><img className="w-12 shadow-2xl/90 transition duration-300 ease-in-out hover:scale-110 hover:-translate-y-1" src="/assets/logos/linkedin.png" alt="Linkedin" /></a>
                 <a href="/public/Dan Mark Caravana -CV.pdf" download  className="no-underline">
                   <div className="flex items-center text-center p-2.5 rounded bg-gray-900 transition duration-300 ease-in-out hover:scale-110 hover:-translate-y-1">
                     <i class='bxr  bx-folder-down-arrow text-3xl text-gray-200'  ></i> 

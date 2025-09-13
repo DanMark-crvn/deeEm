@@ -1,9 +1,9 @@
 import { IconCloud } from "./components/magicui/icon-cloud";
 
 const localIcons = {
-  csharp: "/public/assets/logos/Visual Studio Code (VS Code).png",
+  csharp: "/assets/logos/Visual Studio Code (VS Code).png",
   vscode: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
-  css3: "/public/assets/logos/CSS3.png"
+  css3: "/assets/logos/CSS3.png"
 };
 const slugs = [
   // "typescript",
