@@ -13,14 +13,14 @@ const MainContent = ({details}) => {
     return ( 
         <main className="">
            <div className="bg-gray-900 py-24 sm:py-32">
-                <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+                <div className="mx-auto max-w-2xl md:max-w-2xl px-6 lg:max-w-7xl lg:px-8">
                     <h2 className="text-center text-base/7 font-semibold text-indigo-400">Know me well</h2>
                     <p className="mx-auto mt-2 max-w-lg text-center text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
                         Everything you need to know about {details.nickname}
                     </p>
                     
                     {/* SECTION 1 */}
-                    <div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-2 lg:grid-rows-2">
+                    <div className="mt-10 grid gap-4 sm:mt-16 grid-cols-1 lg:grid-cols-2 lg:grid-rows-2">
                         {/* 1- INFO */}
                         <div className="relative lg:row-span-2">
                             <div className="absolute inset-px rounded-lg bg-gray-800 lg:rounded-l-4xl" />

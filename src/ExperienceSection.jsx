@@ -28,6 +28,7 @@ export default function Experiences({workExp}) {
                     `${index < 2 ? "mb-28" : ""} 
                     lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8`
                 }
+                id={exp.elementId}
             >
                 <div className="-mt-12 -ml-0 p-6 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
                     {exp.href && exp.href.startsWith('http') ? (
@@ -51,7 +52,7 @@ export default function Experiences({workExp}) {
                 
                 <div className="lg:pr-4">
                     <div className="max-w-xl text-base/7 text-gray-400 lg:max-w-lg">
-                        <p className="text-xl/8 text-gray-300" id={exp.elementId}>
+                        <p className="text-xl/8 text-gray-300">
                             {exp.name} - {exp.position}
                         </p>
                         <p className="text-gray-300">({exp.startDate} - {exp.endDate})</p>

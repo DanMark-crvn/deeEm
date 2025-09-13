@@ -13,7 +13,7 @@ const TechStacks = ({stackIcons}) => {
                                     width={158}
                                     height={48}
                                     className={
-                                        `${icon.name === 'MysqlIcon' || icon.name === 'AspIcon'
+                                        `${icon.name === 'MysqlIcon' || icon.name === 'AspIcon' || icon.name === 'GitHubIcon'
                                             ? 'bg-gray-200 rounded py-0.5' 
                                             : 'bg-gray-800'
                                         } col-span-2 max-h-12 w-full object-contain lg:col-span-1`
