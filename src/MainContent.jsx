@@ -3,10 +3,11 @@ import Experiences from "./ExperienceSection";
 import { IconCloudDemo } from "./IconCloud";
 import PersonalProjects from "./PersonalProjects";
 import TechStacks from "./TechStacks";
+import Clock from "./components/others/Clock";
 
 const MainContent = ({details}) => {
     const stats = details.stats;
-    const experience = details.exp;
+    // const experience = details.exp;
     const workExp = details.workExperience;
     const icons = details.allIcons.techStacks;
     const personalProject = details.personalProjects;
@@ -14,7 +15,9 @@ const MainContent = ({details}) => {
         <main className="">
            <div className="bg-gray-900 py-24 sm:py-32">
                 <div className="mx-auto max-w-2xl md:max-w-2xl px-6 lg:max-w-7xl lg:px-8">
-                    <h2 className="text-center text-base/7 font-semibold text-indigo-400">Know me well</h2>
+                    <h2 className="text-center text-base/7 font-semibold text-indigo-400">
+                        <Clock />
+                    </h2>
                     <p className="mx-auto mt-2 max-w-lg text-center text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
                         Everything you need to know about {details.nickname}
                     </p>
@@ -27,7 +30,7 @@ const MainContent = ({details}) => {
                             <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
                                 <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
                                     <div className="flex flex-col gap-4 justify-center items-center md:flex-row lg:flex-row lg:items-start">
-                                        <img src="/assets/imgs/me.png" className="rounded" alt="Me" width={200} />
+                                        <img src={details.mypic} className="rounded" alt="Me" width={200} />
                                         <div className="w-full mx-auto px-0 md:px-6 lg:px-6 text-start md:text-start bg-gray-900 outline outline-white/20">
                                             <p className="mt-2 text-lg font-medium tracking-tight text-white max-lg:text-center">{details.name}</p>
                                             <p className="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">
@@ -96,7 +99,7 @@ const MainContent = ({details}) => {
 
                                     <div className="px-6 pt-6 pb-14 h-full w-full text-justify overflow-auto">
                                         {/* Your code example */}
-                                        <CodeExp experiences={experience} />
+                                        <CodeExp experiences={workExp} />
                                     </div>
                                 </div>
                             </div>

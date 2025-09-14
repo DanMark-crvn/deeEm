@@ -7,7 +7,7 @@
     "phone": "+63 956 982 4946",
     "location": "Biñan City Laguna, Philippines",
     "address": "326 Purok 3 Sto. Tomas Biñan City Laguna",
-
+    "mypic": "/assets/imgs/me.png",
     "headline": "If you don't take risk you can't create a future!",
 
     "linkedin": "https://www.linkedin.com/in/dmrcvn",
@@ -28,57 +28,61 @@
         { "id": 3, "name": "AL Software Solutions Vision", "position": "QA-Tester (Internship)", "url": "#ojt" }
     ],
 
-    "workExperience": [
-        { "id": 1, "name": "Laguna Metts Corporation", "position": "IT Staff / Programmer", 
-            "imageUrl": "https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png", 
-            "href": "#lagunametts",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi incidunt voluptas recusandae unde, facilis aperiam numquam quia quisquam eveniet velit.",
-            "stack": ["MySQL", "TailwindCSS", "Laravel","ReactJS"],
-            "alt": ["MySQLIcon", "TailwindIcon", "LaravelIcon","ReactIcon"],
-            "icons": [
-                {"name": "MySQLIcon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"},
-                {"name": "TailwindIcon", "url": "/assets/logos/Tailwind CSS.png"},
-                {"name": "LaravelIcon", "url": "/assets/logos/Laravel.png"},
-                {"name": "ReactIcon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"}
-            ],
-            "progress": [80, 83, 22.6, 77.3],
-            "elementId": "lagunametts",
-            "startDate": "May 2024",
-            "endDate": "July 2024"
-        },
-        { "id": 2, "name": "Premier Software Enterprise", "position": "Software Developer", 
-            "imageUrl": "/assets/imgs/pseiDashboard.png", 
-            "href": "https://pseconnect.com/market",
-            "description": "Hotdog ipsum dolor sit amet consectetur adipisicing elit. Excepturi incidunt voluptas recusandae unde, facilis aperiam numquam quia quisquam eveniet velit.",  
-            "stack": ["C#", "ASP.NET", "Bootstrap","Blazor"],
-            "alt": ["CSharpIcon", "AspIcon", "BootstrapIcon","BlazorIcon"],
-            "icons": [
-                { "name": "CSharp", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" },
-                { "name": "ASP.NET", "url": "/assets/logos/NET core.png" },
-                { "name": "Bootstrap", "url": "/assets/logos/Bootstrap.png" },
-                { "name": "Blazor", "url": "/assets/logos/blazor.png" }
-            ],
-            "progress": [45, 25, 60, 60],
-            "elementId": "psei",
-            "startDate": "October 2023",
-            "endDate": "February 2024"
-        },
-        { "id": 3, "name": "AL Software Solutions Vision", "position": "QA-Tester (Internship)", 
-            "imageUrl": "/assets/imgs/alss-qa.png", 
-            "href": "#ojt",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi incidunt voluptas recusandae unde, facilis aperiam numquam quia quisquam eveniet velit.",
-            "tools": ["MS-Word / G-Docs", "Photoshop"],
-            "alt": ["WordIcon", "PhotoshopIcon"],
-            "icons": [
-                {"name": "WordIcon", "url": "/assets/logos/msword.png"},
-                {"name": "PhotoshopIcon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg"}
-            ],
-            "progress": [90, 25],
-            "elementId": "ojt",
-            "startDate": "October 2022",
-            "endDate": "December 2022"
-        }
-    ],
+    "workExperience": {
+        "title": "Work Experience",
+        "subtitle": "My Journey",
+        "entries": [
+            { "id": 1, "name": "Laguna Metts Corporationss", "position": "IT Staff / Programmer", 
+                "imageUrl": "https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png", 
+                "href": "#lagunametts",
+                "description": "Lorem ipsum dolors sit amet consectetur adipisicing elit. Excepturi incidunt voluptas recusandae unde, facilis aperiam numquam quia quisquam eveniet velit.",
+                "stack": ["MySQL", "TailwindCSS", "Laravel","ReactJS"],
+                "alt": ["MySQLIcon", "TailwindIcon", "LaravelIcon","ReactIcon"],
+                "icons": [
+                    {"name": "MySQLIcon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"},
+                    {"name": "TailwindIcon", "url": "/assets/logos/Tailwind CSS.png"},
+                    {"name": "LaravelIcon", "url": "/assets/logos/Laravel.png"},
+                    {"name": "ReactIcon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"}
+                ],
+                "progress": [80, 83, 22.6, 77.3],
+                "elementId": "lagunametts",
+                "startDate": "May 2024",
+                "endDate": "July 2024"
+            },
+            { "id": 2, "name": "Premier Software Enterprise", "position": "Software Developer", 
+                "imageUrl": "/assets/imgs/pseiDashboard.png", 
+                "href": "https://pseconnect.com/market",
+                "description": "Hotdog ipsum dolor sit amet consectetur adipisicing elit. Excepturi incidunt voluptas recusandae unde, facilis aperiam numquam quia quisquam eveniet velit.",  
+                "stack": ["C#", "ASP.NET", "Bootstrap","Blazor"],
+                "alt": ["CSharpIcon", "AspIcon", "BootstrapIcon","BlazorIcon"],
+                "icons": [
+                    { "name": "CSharp", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" },
+                    { "name": "ASP.NET", "url": "/assets/logos/NET core.png" },
+                    { "name": "Bootstrap", "url": "/assets/logos/Bootstrap.png" },
+                    { "name": "Blazor", "url": "/assets/logos/blazor.png" }
+                ],
+                "progress": [45, 25, 60, 60],
+                "elementId": "psei",
+                "startDate": "October 2023",
+                "endDate": "February 2024"
+            },
+            { "id": 3, "name": "AL Software Solutions Vision", "position": "QA-Tester (Internship)", 
+                "imageUrl": "/assets/imgs/alss-qa.png", 
+                "href": "#ojt",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi incidunt voluptas recusandae unde, facilis aperiam numquam quia quisquam eveniet velit.",
+                "tools": ["MS-Word / G-Docs", "Photoshop"],
+                "alt": ["WordIcon", "PhotoshopIcon"],
+                "icons": [
+                    {"name": "WordIcon", "url": "/assets/logos/msword.png"},
+                    {"name": "PhotoshopIcon", "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg"}
+                ],
+                "progress": [90, 25],
+                "elementId": "ojt",
+                "startDate": "October 2022",
+                "endDate": "December 2022"
+            }
+        ]
+    },
 
     
     "allIcons": {
