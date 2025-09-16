@@ -3,7 +3,7 @@ import Experiences from "./ExperienceSection";
 import { IconCloudDemo } from "./IconCloud";
 import PersonalProjects from "./PersonalProjects";
 import TechStacks from "./TechStacks";
-import Clock from "./components/others/Clock";
+import Clock from "./Clock";
 
 const MainContent = ({details}) => {
     const stats = details.stats;
@@ -15,17 +15,19 @@ const MainContent = ({details}) => {
         <main className="">
            <div className="bg-gray-900 py-24 sm:py-32">
                 <div className="mx-auto max-w-2xl md:max-w-2xl px-6 lg:max-w-7xl lg:px-8">
-                    <h2 className="text-center text-base/7 font-semibold text-indigo-400">
-                        <Clock />
-                    </h2>
-                    <p className="mx-auto mt-2 max-w-lg text-center text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
-                        Everything you need to know about {details.nickname}
-                    </p>
+                    <div className="" data-aos="fade-up">
+                        <h2 className="text-center text-base/7 font-semibold text-indigo-400">
+                            <Clock />
+                        </h2>
+                        <p className="mx-auto mt-2 max-w-lg text-center text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
+                            Everything you need to know about {details.nickname}
+                        </p>
+                    </div>
                     
                     {/* SECTION 1 */}
                     <div className="mt-10 grid gap-4 sm:mt-16 grid-cols-1 lg:grid-cols-2 lg:grid-rows-2">
                         {/* 1- INFO */}
-                        <div className="relative lg:row-span-2">
+                        <div className="relative lg:row-span-2" data-aos="fade-right">
                             <div className="absolute inset-px rounded-lg bg-gray-800 lg:rounded-l-4xl" />
                             <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
                                 <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
@@ -77,7 +79,7 @@ const MainContent = ({details}) => {
                         {/* 1 end */}
                                                 
                         {/* 2 - PREVIEW EXPERIENCE */}
-                        <div className="relative lg:row-span-2">
+                        <div className="relative lg:row-span-2" data-aos="fade-left">
                             <div className="absolute inset-px rounded-lg bg-gray-800 max-lg:rounded-b-4xl lg:rounded-r-4xl" />
                             <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)]">
                             <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">

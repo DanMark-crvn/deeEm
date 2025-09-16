@@ -13,6 +13,7 @@ const PersonalProjects = ({personalProjects}) => {
                 <div className={`transition-all duration-700 ease-in-out overflow-hidden ${
                         isOpen ? 'max-h-[1000px] opacity-100 visible' : 'max-h-0 opacity-0 invisible'
                         }`}
+                    data-aos="zoom-in-up"
                 >
                     <div className="bg-gray-900 py-24 sm:py-32">
                         <div className="mx-auto max-w-7xl px-6 lg:px-8">

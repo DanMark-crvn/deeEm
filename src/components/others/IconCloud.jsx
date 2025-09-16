@@ -1,4 +1,4 @@
-import { IconCloud } from "./components/magicui/icon-cloud";
+import { IconCloud } from "../magicui/icon-cloud";
 
 const localIcons = {
   csharp: "/assets/logos/Visual Studio Code (VS Code).png",

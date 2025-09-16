@@ -1,5 +1,3 @@
-// import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
-
 export default function Experiences({workExp}) {
   return (
     <div className="relative overflow-hidden isolate bg-gray-900 px-6 py-24 lg:overflow-visible sm:py-32 lg:px-0 mt-24 text-start">
@@ -31,26 +29,28 @@ export default function Experiences({workExp}) {
                 id={exp.elementId}
             >
                 <div className="-mt-12 -ml-0 p-6 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110">
-                    {exp.href && exp.href.startsWith('http') ? (
-                        <a href={exp.href} target="_blank" rel="noopener noreferrer">
-                            <img
-                                alt=""
-                                src={exp.imageUrl}
-                                className="w-3xl max-w-none rounded-xl bg-gray-800 shadow-xl ring-1 ring-white/10 sm:w-118"
-                            />
-                        </a>
-                    ) : (
-                        <a href={exp.href}>
-                            <img
-                                alt=""
-                                src={exp.imageUrl}
-                                className="w-3xl max-w-none rounded-xl bg-gray-800 shadow-xl ring-1 ring-white/10 sm:w-118"
-                            />
-                        </a>
-                    )}
+                    <div data-aos="fade-up-right">
+                        {exp.href && exp.href.startsWith('http') ? (
+                            <a href={exp.href} target="_blank" rel="noopener noreferrer">
+                                <img
+                                    alt=""
+                                    src={exp.imageUrl}
+                                    className="w-3xl max-w-none rounded-xl bg-gray-800 shadow-xl ring-1 ring-white/10 sm:w-118"
+                                />
+                            </a>
+                        ) : (
+                            <a href={exp.href}>
+                                <img
+                                    alt=""
+                                    src={exp.imageUrl}
+                                    className="w-3xl max-w-none rounded-xl bg-gray-800 shadow-xl ring-1 ring-white/10 sm:w-118"
+                                />
+                            </a>
+                        )}
+                    </div>
                 </div>
                 
-                <div className="lg:pr-4">
+                <div className="lg:pr-4" data-aos="fade-right">
                     <div className="max-w-xl text-base/7 text-gray-400 lg:max-w-lg">
                         <p className="text-xl/8 text-gray-300">
                             {exp.name} - {exp.position}

@@ -3,10 +3,10 @@ const Header = ({navlinks}) => {
   const linkedInTool = navlinks.allIcons.otherTools.find(tool => tool.name === "LinkedInIcon");
 
     return ( 
-        <header className="bg-gray-700 shadow sticky top-0 z-50">
+        <header className="bg-gray-700 shadow sticky top-0 z-50" data-aos="fade-down">
           <div className="max-w-7xl mx-auto px-3 pl-7 md:pl-12 md:px-5 lg:pl-0 lg:px-0 flex justify-between items-center">
             {/* <h1 className="text-xl font-bold text-gray-800">Dee-Em</h1> */}
-            <a href="/" className="text-xl font-bold !text-gray-200 text-shadow-lg/100 ">{navlinks.logo}</a >
+            <a href="/" className="text-xl font-bold !text-gray-200 text-shadow-lg/70 ">{navlinks.logo}</a >
             <nav className="m-4 flex justify-around items-center">
               {/* <a href="/" className="text-lg font-bold">Dee-Em</a > */}
               <div className="flex gap-6 items-center">
