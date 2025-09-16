@@ -33,7 +33,7 @@
         "subtitle": "My Journey",
         "entries": [
             { "id": 1, "name": "Laguna Metts Corporationss", "position": "IT Staff / Programmer", 
-                "imageUrl": "https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png", 
+                "imageUrl": "/assets/imgs/imsrv2.png", 
                 "href": "#lagunametts",
                 "description": "Lorem ipsum dolors sit amet consectetur adipisicing elit. Excepturi incidunt voluptas recusandae unde, facilis aperiam numquam quia quisquam eveniet velit.",
                 "stack": ["MySQL", "TailwindCSS", "Laravel","ReactJS"],
