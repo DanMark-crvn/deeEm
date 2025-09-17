@@ -35,7 +35,7 @@
             { "id": 1, "name": "Laguna Metts Corporationss", "position": "IT Staff / Programmer", 
                 "imageUrl": "/assets/imgs/imsrv2.png", 
                 "href": "#lagunametts",
-                "description": "Developed and implemented a web-based Inventory Management System, provided technical support for hardware/software issues, managed Active Directory accounts and policies, performed server backups for data integrity, and resolved support tickets to minimize downtime.",
+                "description": "Experienced in full-stack development and IT support within a corporate environment. Designed and implemented a web-based Inventory Management System to streamline IT asset tracking. Provided comprehensive technical support, managed Active Directory environments, and maintained server backups to ensure data integrity. Known for resolving technical issues efficiently and minimizing system downtime.",
                 "stack": ["MySQL", "TailwindCSS", "Laravel","ReactJS"],
                 "alt": ["MySQLIcon", "TailwindIcon", "LaravelIcon","ReactIcon"],
                 "icons": [
@@ -52,7 +52,7 @@
             { "id": 2, "name": "Premier Software Enterprise", "position": "Software Developer", 
                 "imageUrl": "/assets/imgs/pseiDashboard.png", 
                 "href": "https://pseconnect.com/market",
-                "description": "Implemented and enhanced system features, designed interactive user interfaces, and performed regression testing to improve functionality, usability, and system stability.",  
+                "description": "Implemented and enhanced system features to boost functionality and user engagement. Developed dynamic, user-friendly web interfaces to improve overall usability. Conducted thorough regression testing and efficiently resolved bugs to ensure system stability and high performance.",  
                 "stack": ["C#", "ASP.NET", "Bootstrap","Blazor"],
                 "alt": ["CSharpIcon", "AspIcon", "BootstrapIcon","BlazorIcon"],
                 "icons": [
@@ -69,7 +69,7 @@
             { "id": 3, "name": "AL Software Solutions Vision", "position": "QA-Tester (Internship)", 
                 "imageUrl": "/assets/imgs/alss-qa.png", 
                 "href": "#ojt",
-                "description": "Conducted functional testing to identify bugs and usability issues, assessed system responsiveness across devices, documented issues for the development team, and created promotional materials after training in Adobe Photoshop.",
+                "description": "Performed functional testing on new systems to identify bugs, usability issues, and performance concerns across various devices and platforms. Documented detailed issue reports with replication steps for developers. Gained foundational training in Adobe Photoshop and contributed to social media campaigns by designing promotional materials.",
                 "tools": ["MS-Word / G-Docs", "Photoshop"],
                 "alt": ["WordIcon", "PhotoshopIcon"],
                 "icons": [
