@@ -35,7 +35,7 @@
             { "id": 1, "name": "Laguna Metts Corporationss", "position": "IT Staff / Programmer", 
                 "imageUrl": "/assets/imgs/imsrv2.png", 
                 "href": "#lagunametts",
-                "description": "Lorem ipsum dolors sit amet consectetur adipisicing elit. Excepturi incidunt voluptas recusandae unde, facilis aperiam numquam quia quisquam eveniet velit.",
+                "description": "Developed and implemented a web-based Inventory Management System, provided technical support for hardware/software issues, managed Active Directory accounts and policies, performed server backups for data integrity, and resolved support tickets to minimize downtime.",
                 "stack": ["MySQL", "TailwindCSS", "Laravel","ReactJS"],
                 "alt": ["MySQLIcon", "TailwindIcon", "LaravelIcon","ReactIcon"],
                 "icons": [
@@ -52,7 +52,7 @@
             { "id": 2, "name": "Premier Software Enterprise", "position": "Software Developer", 
                 "imageUrl": "/assets/imgs/pseiDashboard.png", 
                 "href": "https://pseconnect.com/market",
-                "description": "Hotdog ipsum dolor sit amet consectetur adipisicing elit. Excepturi incidunt voluptas recusandae unde, facilis aperiam numquam quia quisquam eveniet velit.",  
+                "description": "Implemented and enhanced system features, designed interactive user interfaces, and performed regression testing to improve functionality, usability, and system stability.",  
                 "stack": ["C#", "ASP.NET", "Bootstrap","Blazor"],
                 "alt": ["CSharpIcon", "AspIcon", "BootstrapIcon","BlazorIcon"],
                 "icons": [
@@ -69,7 +69,7 @@
             { "id": 3, "name": "AL Software Solutions Vision", "position": "QA-Tester (Internship)", 
                 "imageUrl": "/assets/imgs/alss-qa.png", 
                 "href": "#ojt",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi incidunt voluptas recusandae unde, facilis aperiam numquam quia quisquam eveniet velit.",
+                "description": "Conducted functional testing to identify bugs and usability issues, assessed system responsiveness across devices, documented issues for the development team, and created promotional materials after training in Adobe Photoshop.",
                 "tools": ["MS-Word / G-Docs", "Photoshop"],
                 "alt": ["WordIcon", "PhotoshopIcon"],
                 "icons": [
